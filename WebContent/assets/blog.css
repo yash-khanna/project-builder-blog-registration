@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 80px;
+    background-color: white;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.08);
+}
+
+nav ul {
+    display: flex;
+    flex-flow:row ;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 186px;
+    height: 40px;
+    background: #6C63FF;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-plus-circle {
+    margin-right: 0.8em;
+}
+
+.body-div1,
+.body-div2 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.body-div1 {
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.article-card {
+    width: 330px;
+    margin: 30px 0;
+}
+
+.article-card h1 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.article-card p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 15px 0;
+}
+
+.body-div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.card-buttons a,
+.card-buttons span {
+    text-decoration: none;
+    padding-right: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6C63FF;
+}
