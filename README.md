@@ -79,7 +79,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
    - ***Password field should not be empty.***
    - ***Password and confirm password should match.***
    - ***Must contain atleast 8 characters and atmost 20 characters.***
-   - ***Must have atleast one uppercase,1 lowercase,1 number.***
+   - ***Must have atleast one uppercase,1 lowercase,1 number and 1 special character{!@#$%^&*()_+}.***
 
 ## PROGRESSION - 7
 1. ***Create an object for RegistrationValidation in the SignUpController class located inside JAVA Resources - src/controller***
