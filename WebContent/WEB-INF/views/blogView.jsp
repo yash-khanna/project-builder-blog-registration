@@ -23,11 +23,31 @@
     </nav>
     <div class="body-div1">
         <div>Your Blog Posts</div>
-        <div class="button"><i class="fas fa-plus-circle"></i>Add New Post</div>
+        <button class="button" id="addBlog" ><i class="fas fa-plus-circle"></i>Add New Post</button>
     </div>
-    <div class="body-div2">
+<div id="popup">
+<!-- Popup Div Starts Here -->
+<div id="popupContact">
+<img id="close" src="./assets/close-button.svg" onclick ="div_hide()">
+<img id="rect" src=./assets/rect.svg>
+<h2>Your Post</h2>
+<!-- Contact Us Form -->
+<form action="#" id="form" method="post" name="form">
 
-        <div class="article-card">
+<input id="title" name="title" placeholder="Title" type="text">
+<textarea id="msg" name="message" placeholder="Description"></textarea>
+<p id="subject">Subject</p>
+<input id="html" type="radio" name="subject"/>
+<input id="css" type="radio" name="subject" />
+<input id="java" type="radio" name="subject"/>
+<input id="js" type="radio" name="subject"/>
+<button id="post" type="submit" >POST</button>
+</form>
+</div>
+</div>
+     <!--  <div class="body-div2">
+
+      <div class="article-card">
             <img src="./assets/java card image.svg" alt="">
             <div class="card-text">
                 <h1>HTML, CSS and JavaScript Explained For Beginners</h1>
@@ -116,6 +136,7 @@
                 <a href="">EDIT</a> <span>|</span><a href="">DELETE</a>
             </div>
         </div>
-    </div>
+    </div> -->
+    <script src="./script/app.js" type="text/javascript"></script>
 </body>
 </html>

@@ -58,7 +58,7 @@ public class SignUpController extends HttpServlet {
 		}
 		else
 		{
-			request.setAttribute("message", "email and password did not match");
+			request.setAttribute("message", "Check your email and password");
 			RequestDispatcher rd=this.getServletContext().getRequestDispatcher("/WEB-INF/views/signupView.jsp");
 			rd.forward(request, response);
 		}

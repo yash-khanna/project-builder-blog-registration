@@ -34,7 +34,7 @@ public class RegistrationValidation {
 	private boolean validEmail(String email) {
 		
 		 String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
-		System.out.println("Enter email validation");
+		 System.out.println("Enter email validation");
 		 return email.matches(regex);
 	}
 	
