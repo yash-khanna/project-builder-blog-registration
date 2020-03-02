@@ -1,6 +1,6 @@
 package businesslogic;
 
-
+/*
 
 public class ValidateUser {
 
@@ -15,3 +15,5 @@ public class ValidateUser {
 	}
 
 }
+
+*/

@@ -11,8 +11,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import businesslogic.RegistrationValidation;
-import model.User;
 
 
 @WebServlet(urlPatterns= {"/signup"})
@@ -33,15 +31,13 @@ public class SignUpController extends HttpServlet {
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String email = request.getParameter("email"); //  get the email value from the jsp/html page
+	/*	String email = request.getParameter("email"); //  get the email value from the jsp/html page
 		String password = request.getParameter("password"); //  get the password value from the jsp/html page
 		String confirmPassword = request.getParameter("confirmPassword"); //  get the confirm password value from the jsp/html page
 		LocalDateTime date= LocalDateTime.now(); // Java 8 Time API used to get system date and time at a particular instance
-		System.out.println(email);
-		System.out.println(password);
-		System.out.println(confirmPassword);
 		
-		RegistrationValidation checkUser=new RegistrationValidation();
+// 1. ***Create an object for RegistrationValidation in the SignUpController class located inside JAVA Resources - src/controller***
+// 2. ***Call the checkUserDetails method with the object created***
 		
 		if(checkUser.checkUserDetails(email, password, confirmPassword))
 		{
@@ -63,7 +59,7 @@ public class SignUpController extends HttpServlet {
 			rd.forward(request, response);
 		}
 		
-		
+		*/
 	}
 
 }
