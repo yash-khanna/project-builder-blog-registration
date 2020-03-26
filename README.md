@@ -62,7 +62,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
    - ***public boolean checkUserDetails(String email, String password, String confirmPassword)*** 
    - ***private boolean validPassword(String password, String confirmPassword)***
    - ***private boolean validEmail(String email)***
-2. ***CheckUserDetails should invoke two methods validPassword and validEmail.
+2. ***CheckUserDetails should invoke two methods validPassword and validEmail.***
 3. ***Email should pass the following validations***
    - ***Email can contain alphanumeric value***
    - ***Allowed special characters - _, @, .[at, underscore, dot]***
